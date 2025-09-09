@@ -1,0 +1,151 @@
+.html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.container{
+    background: #ffadad;
+    background: linear-gradient(90deg, rgba(255, 173, 173, 1) 0%, rgba(255, 211, 153, 1) 100%);
+
+}
+.main{
+    width: 75%;
+    margin: auto;
+}
+.mainphoto{
+    width: 604px;
+    height: 504px;
+    margin-left: 200px;
+    
+}
+.main_cake{
+    width: 604px;
+    height: 504px;
+    margin-left: 450px;
+    border-radius: 50%;
+}
+.maintxt{
+    font-size: 20px;
+    text-align: left;
+    margin-top: -400px;
+    color: black;
+    position: relative;
+
+}
+.maintxt span{
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+.header{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.header nav ul li{
+    padding: 0px 20px;
+    color: black;
+
+}
+.header nav ul li a:hover{
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-left: 30px;
+    position: relative;
+    bottom: 25px;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    padding-top: 10px;
+}
+.btn{
+    width: 489px;
+    height: 85px;
+    background: #f7b748;
+    background: linear-gradient(90deg, rgba(247, 183, 72, 1) 0%, rgba(255, 25, 25, 1) 100%);
+    border-radius: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #FF1D1A;
+    background: linear-gradient(90deg, rgba(255, 29, 26, 1) 0%, rgba(247, 183, 72, 1) 100%);
+    color: white;
+    transition: 0.5s ease;
+}
+.block{
+    width: 100%;
+    height: 100%;
+    background: #ffadad;
+    background: linear-gradient(90deg, rgba(255, 173, 173, 1) 0%, rgba(255, 211, 153, 1) 100%);
+}
+
+.bottom_icons img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+.catalog {
+    padding: 40px;
+}
+
+.catalog h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;              /* карточки в ряд */
+  gap: 20px;                  /* расстояние между ними */
+}
+
+.card {
+  background: pink;           
+  border-radius: 20px;        
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+  padding: 15px;
+  text-align: center;
+  width: 220px;               
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* лёгкий подъём при наведении */
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.card p {
+  margin-top: 10px;
+  font-weight: bold;
+}
